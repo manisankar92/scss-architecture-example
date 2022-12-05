@@ -1,0 +1,13 @@
+{
+  "name": "scss-architecture-example",
+  "version": "1.0.0",
+  "description": "it explains how to create 7-1 pattern scss architecture example",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "Manisankar R",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

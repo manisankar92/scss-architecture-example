@@ -1,0 +1,11 @@
+/* clearfix helps, if we use float element for child, then we parent element doesn't have height. height is 0
+to handle that situation, we use clearfix. For clear property, we can mention right or left or both. if you want to
+clear both side.
+*/
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
